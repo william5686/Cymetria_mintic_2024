@@ -1,0 +1,40 @@
+.formulario{
+    background-color: red;
+   /* padding: 20px; */
+
+    padding: 20px 40px; /*arraiba y abajo*/
+}
+
+.Formulario_input{
+
+    padding: 40px 10px;
+    width: 90%;
+    margin: 5px;
+}
+
+.Formulario_sub{
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: red;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+}
+.box{
+
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 10px; /* sirve para serparar */
+
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+}
+
+.box_grande{
+
+    margin: 60px;
+}

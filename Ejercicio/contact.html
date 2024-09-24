@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Contacto -->
+    <h2 id="contacto">Contacto</h2>
+    <p>Nos encantaría saber de ti. Contáctanos a través de la siguiente información:</p>
+    <p><strong>Email:</strong> contacto@techsolutions.com</p>
+    <p><strong>Teléfono:</strong> +57 123 456 7890</p>
+
+    <form action="/submit-form" method="POST">
+        <label for="name">Nombre Completo:</label><br>
+        <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" required><br><br>
+
+        <label for="phone">Número de Teléfono:</label><br>
+        <input type="number" id="phone" name="phone" placeholder="Escribe tu número de teléfono" required><br><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Escribe tu mensaje aquí" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+</body>
+</html>

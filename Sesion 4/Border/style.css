@@ -1,0 +1,18 @@
+div{
+    background-color: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+div{
+    border-width: 10px;
+    border-color: black;
+    border-style: double;
+    border-radius: 5px;
+    
+
+
+}

@@ -1,0 +1,28 @@
+*{
+    font-family: verdana;
+}
+
+
+
+li {
+    color: green !important;
+}
+
+h1{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+
+
+/*Selectores por clase*/
+.faltante{
+    color: red;
+}
+
+/*Selectores por ID*/
+
+#IngredientesEspecial{
+
+    color: orange;
+}

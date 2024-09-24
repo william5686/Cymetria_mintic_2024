@@ -1,0 +1,18 @@
+body{
+
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin:0;
+}
+
+.tarjeta{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    
+    padding: 20px;
+}

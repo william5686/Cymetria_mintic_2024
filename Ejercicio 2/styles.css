@@ -1,0 +1,47 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos de la tarjeta */
+.tarjeta {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Div para información personal */
+.info-personal {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Div para información de contacto */
+.info-contacto {
+    padding-top: 10px;
+}
+
+/* Estilos para títulos y textos */
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
