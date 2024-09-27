@@ -1,0 +1,21 @@
+.shadow{
+    background-color: #fff;
+    box-shadow: 0  10px 2px black;
+}
+
+.subtitulo{
+
+    text-shadow: 10px 10px 10px red;
+    font-family: sans-serif;
+}
+
+p{
+    text-shadow: 0px 0px 10px green;
+}
+
+img{
+    width: 100px;
+    margin: 20px;
+    filter: drop-shadow(10px 10px 30px black);
+    position: center;
+}

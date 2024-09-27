@@ -1,0 +1,18 @@
+body{
+    background-color: pink;
+    background-image: url(./img/162297.jpg);
+    background-size: 100px;
+    background-repeat: repeat-x;
+}
+.box{
+    width: 400px;
+    margin: 20px;
+    margin-left: 100px;
+    background-color: #ECA900;
+    background-image: url(./img/alien-drama-files-gun-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: repeat-x;
+
+
+}

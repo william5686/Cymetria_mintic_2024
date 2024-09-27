@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(178,176,244,o.4);
+    margin: 0;
+}
+
+.box{
+    
+    width: 100%;
+    height: 800px;
+   /* background: linear-gradient(0.25turn,red,black); */
+    /*background: radial-gradient(ellipse at top,black,green); */
+    background: conic-gradient(red,black);
+}
+
+h1{
+    color: #fff;
+    margin: auto;
+    padding: 20px;
+}

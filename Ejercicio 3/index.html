@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario contacto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form>
+        <h1>Formulario de Contacto</h1>
+        <fieldset>
+            <legend>Informacion Basica</legend>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Nombre Completo:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre Completo">
+
+                <label for="disabledTextInput" class="form-label">Email:</label>
+                <input type="email" id="disabledTextInput" class="form-control" placeholder="Email">
+
+                <label for="disabledTextInput" class="form-label">Telefono:</label>
+                <input type="number" id="disabledTextInput" class="form-control" placeholder="Telefono">
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Genero:</label>
+                <select id="disabledSelect" class="form-select">
+                    <option selected>Hombre</option>
+                    <option>Mujer</option>
+                    <option>Binario</option>
+                    <option>No responder</option>
+
+                </select>
+                </select>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion Contacto</legend>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Comunicación:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Comunicación">
+                <div class="mb-3">
+                
+                    <div class="mb-3">
+                        <label for="textareaInput" class="form-label">Mensaje</label>
+                        <textarea id="textareaInput" class="form-control" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                    <label class="form-check-label" for="disabledFieldsetCheck">
+                        Puedes seleccionar esto
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
